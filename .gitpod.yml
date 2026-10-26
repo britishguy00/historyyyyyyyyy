@@ -1,0 +1,4 @@
+tasks:
+  - init: echo "Setting up Virtual Android Cloud Environment..."
+    command: |
+      docker run -d -p 6080:6080 --device /dev/kvm budtmo/docker-android:emulator_11.0
